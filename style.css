@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #083b4c;
+}
+
 ul{
     display: flex;
     flex-wrap: wrap;
@@ -12,13 +16,13 @@ ul{
     list-style: none;
     width: 600px;
     margin: auto;
-    background-color: aqua;
+    
 }
 
 ul>*{
     aspect-ratio: 1/1;
     width: calc(100% * 1/7 - 10px + 10px/7);
-    background-color: blueviolet;
+    background-color: #1389b2;
     display: flex;
     justify-content: center;
     align-items: center;
