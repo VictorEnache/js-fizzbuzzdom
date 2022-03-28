@@ -5,17 +5,17 @@ for (let i = 1; i <= 100; i++) {
 
     unorderedLIst.appendChild(listItem)
 
-    listItem.innerHTML = i
-    
+    listItem.innerHTML = `<span>${i}</span>`
+
     if(i % 3 == 0 && i % 5 == 0) {
-        listItem.innerHTML = 'FizzBuzz'
+        listItem.innerHTML = `<span>FizzBuzz</span>`
     }
     else if (i % 3 == 0) {
-        listItem.innerHTML = 'Fizz'
+        listItem.innerHTML = `<span>Fizz</span>`
     }
 
     else if (i % 5 == 0) {
-        listItem.innerHTML = 'Buzz'
+        listItem.innerHTML = `<span>Buzz</span>`
     }
 
     console.log(listItem.innerHTML)

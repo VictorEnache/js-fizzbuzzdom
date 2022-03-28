@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    width: 600px;
+    margin: auto;
+    background-color: aqua;
+}
+
+ul>*{
+    aspect-ratio: 1/1;
+    width: calc(100% * 1/7 - 10px + 10px/7);
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
