@@ -7,6 +7,14 @@
 
 body{
     background-color: #083b4c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    font-size: 3.25rem;
+    line-height: calc(100% * 2);
+    text-align: center;
 }
 
 ul{
